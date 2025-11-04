@@ -79,3 +79,32 @@ button:hover {
   margin-top: 30px;
   color: #264653;
 }
+
+
+
+.formulario-con-imagenes {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.imagenes-laterales {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imagenes-laterales img {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+  width: 320px;
+  height: 350px;
+}
+
+  
+  
