@@ -29,15 +29,15 @@
         <div>
             <h2> Tamaño </h2>
             <label for="chico">Chico $100</label>
-            <input type="radio" name="tam" id="chico" value="chico">
+            <input type="radio" name="tam" id="chico" value="chico" onclick="calcular()">
             <br>
 
             <label for="chico">Mediano $150</label>
-            <input type="radio" name="tam" id="mediano" value="mediano">
+            <input type="radio" name="tam" id="mediano" value="mediano" onclick="calcular()">
             <br>
 
             <label for="chico">Grande $200</label>
-            <input type="radio" name="tam" id="grande" value="grande">
+            <input type="radio" name="tam" id="grande" value="grande" onclick="calcular()">
             <br>
         </div>
 
@@ -45,19 +45,19 @@
             <h2>Tipo de Pan</h2>
            
             <label for="integral">Integral </label>
-            <input type="radio" name="pan" id="integral" value="integral">
+            <input type="radio" name="pan" id="integral" value="integral" onclick="calcular()">
             <br>
 
             <label for="blanco">Blanco $+5</label>
-            <input type="radio" name="pan" id="blanco" value="blanco">
+            <input type="radio" name="pan" id="blanco" value="blanco" onclick="calcular()">
             <br>
 
             <label for="papa">Papa $+5</label>
-            <input type="radio" name="pan" id="papa" value="papa">
+            <input type="radio" name="pan" id="papa" value="papa" onclick="calcular()">
             <br>
 
             <label for="parmesano">Parmesano $+5</label>
-            <input type="radio" name="pan" id="parmesano" value="parmesano">
+            <input type="radio" name="pan" id="parmesano" value="parmesano" onclick="calcular()">
             <br>
         </div>
 
@@ -127,9 +127,9 @@
         <div>
             <label for="combo">
                 ¿Quieres hacerlo combo (incluye Refresco y Papas $+75)?
-                <select name="combo" id="combo">
-                    <option value="si">Si</option>
-                    <option value="no">No</option>
+                <select name="combo" id="combo" onchange="calcular()">
+                    <option value="si" >Si</option>
+                    <option value="no" >No</option>
                 </select>
             </label>
         </div>

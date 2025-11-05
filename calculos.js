@@ -16,14 +16,11 @@ function calcular() {
         //var tamañoGrande = document.getElementById("grande").value;
     //alert(tamañoGrande);
 
-    var tamaño = formulario.tam.value
-    alert(tamaño);
+    var tamaño = formulario.tam.value;
     
-        var pan = formulario.pan.value
-        alert(pan);
+        var pan = formulario.pan.value;
 
-            var combo = formulario.combo.value
-            alert(combo);
+            var combo = formulario.combo.value;
 
 
 
@@ -53,13 +50,13 @@ function calcular() {
                             total = total + 5;     }
 
 
-
-
                                 if(formulario.combo.value == "si") {
                                 total = total + 75;     }  
                                 
                                     if(formulario.combo.value == "no") {
-                                    total = total ;     }
+                                    total = total;   }
+
+
 
 
     formulario.total.value = total * cantidad;
